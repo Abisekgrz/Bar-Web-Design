@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Shantell+Sans:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(248, 248, 225);
+}
+
+.header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo {
+    width: 20%;
+    height: inherit;
+}
+
+span {
+    font-size: 22px;
+    font-weight: 500;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.navbar {
+    width: 80%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-menu {
+    width: 50%;
+    height: inherit;
+}
+
+.right-menu {
+    width: 50%;
+    height: inherit;
+}
+
+.left-menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.left-menu li a {
+    text-decoration: none;
+    font-family: font-family: 'Poppins', sans-serif;
+    ;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.right-menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.right-menu li a {
+    text-decoration: none;
+    font-family: font-family: 'Poppins', sans-serif;
+    ;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.active {
+    background-color: rgb(81, 207, 81);
+    padding: 8px 12px;
+    border-radius: 2px;
+}
+
+ul li a:hover {
+    background-color: rgb(81, 207, 81);
+    color: white;
+    transition: .3s;
+}
+
+.right-menu ul li a,
+.left-menu ul li a {
+    padding: 8px 12px;
+    border-radius: 2px;
+}
+
+.main {
+    width: 100%;
+    height: 50vh;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.content-head {
+    width: 60%;
+    height: inherit;
+    margin-left: 12%;
+}
+
+.aside-content {
+    width: 40%;
+    height: inherit;
+}
+
+.photo-content {
+    width: 450px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.heading {
+    display: block;
+    width: fit-content;
+    /* margin: auto; */
+    /* margin-top: 60px; */
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.mail-box {
+    display: flex;
+    
+    margin-top: 10px;
+}
+
+.mail {
+    /* margin-top: 15px; */
+    width: 222px;
+    padding: 8px 15px;
+}
+
+.btn {
+    margin-left: 5px;
+    padding: 0px 5px;
+    border: 1px solid rgb(81, 207, 81);
+    border-radius: 2px;
+    background-color: white;
+    color: black;
+}
+
+.lorem {
+    width: fit-content;
+    display: block;
+    margin: auto;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(81, 207, 81);
+    color: white;
+    transition: .3s;
+}
+
+.test i{
+    color:rgb(79, 213, 79);
+    margin-top: 15px;
+    
+}
+
+.test{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
